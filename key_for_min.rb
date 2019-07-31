@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     if selected_key == nil
       selected_key = key
       selected_value = value
-    elsif value < selected_value 
+    elsif value < selected_value
       selected_key = key
       #{table: 85, chair: 25, mattress: 450}
     end
